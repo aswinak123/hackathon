@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.page{
+    margin: auto;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+}
+.nav{
+    display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  min-height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  align-self: center;
+}
+.logoimg{
+    height: 3.5rem;
+    position: absolute;
+
+}
+.img1{
+    /* margin: auto; */
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    transform: scale(1) translateY(-5rem) translateX(-30rem);
+    margin: 0;
+    position: relative;
+}
